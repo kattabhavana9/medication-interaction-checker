@@ -14,14 +14,14 @@ def main():
     interactions = check_interactions(standardized, db, age, weight, conditions)
 
     if interactions:
-        print("\n⚠️ Potential Interactions Found:")
+        print("\n Potential Interactions Found:")
         for inter in interactions:
-            print(f"🔸 {inter['drug1']} + {inter['drug2']} → {inter['description']} (Severity: {inter['severity']})")
+            print(f" {inter['drug1']} + {inter['drug2']} → {inter['description']} (Severity: {inter['severity']})")
             suggestions = suggest_alternatives(inter['drug1'], inter['drug2'])
             if suggestions:
-                print(f"   🔄 Safer alternatives: {', '.join(suggestions)}")
+                print(f"    Safer alternatives: {', '.join(suggestions)}")
     else:
-        print("✅ No major interactions found.")
+        print(" No major interactions found.")
 
 if __name__ == "__main__":
     main()
