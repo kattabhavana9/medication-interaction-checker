@@ -1,0 +1,26 @@
+{
+"Paracetamol":{
+"interacts_with":{
+"Warfarin": {
+"severity": "high",
+"description": "May increase the risk of bleeding."
+}
+}
+},
+"Ibuprofen":{
+"interacts_with":{
+"Aspirin":{
+"severity":"moderate",
+"description": "Ibuprofen may reduce the cardioprotective effect of aspirin."
+}
+}
+},
+"Metformin":{
+"interacts_with":{
+"Alcohol":{
+"severity": "high",
+"description": "Can increase the risk of lactic acidosis."
+}
+}
+}
+}
