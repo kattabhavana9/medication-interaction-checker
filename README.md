@@ -11,7 +11,7 @@ A Python-based tool to check for interactions between multiple medications and p
 
 ## How to Use
 1. Clone the repo  
-   `git clone https://github.com/yourusername/medication-interaction-checker`
+   `git clone https://github.com/kattabhavana9/medication-interaction-checker`
 2. Add required files:  
    - `interactions.csv`  
    - `drug_synonyms.json`  
