@@ -9,7 +9,7 @@ def load_db(file_path='db_drug_interactions.csv'):
                 "drug1": row["Drug 1"].strip().capitalize(),
                 "drug2": row["Drug 2"].strip().capitalize(),
                 "description": row["Interaction Description"].strip(),
-                "severity": "moderate"  # Default severity (you can enhance this)
+                "severity": "moderate" 
             })
     return db
 
