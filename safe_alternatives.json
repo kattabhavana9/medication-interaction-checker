@@ -1,0 +1,7 @@
+{
+  "Warfarin": ["Apixaban", "Dabigatran"],
+  "Ibuprofen": ["Paracetamol", "Naproxen"],
+  "Metformin": ["Acarbose", "Glipizide"],
+  "Paracetamol": ["Ibuprofen"],
+  "Aspirin": ["Clopidogrel"]
+}
